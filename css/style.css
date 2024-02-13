@@ -1,0 +1,146 @@
+body {
+  background-color: #141414;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+  width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: #242424;
+  height: 700px;
+  color: #fff;
+  border-radius: 20px;
+
+}
+
+.notes__title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.notes__header {
+  display: flex;
+  justify-content: end;
+}
+
+.notes__btn-delete {  
+  width: 100px;
+  height: 25px;
+  background-color: rgb(2, 79, 151);
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .3s;
+  margin: 25px 0px;
+}
+
+.notes__btn-delete:hover {
+  background-color: rgb(3, 95, 182);
+  color: #cec9c9;
+}
+
+.notes__inner {
+  display: flex;
+  gap: 20px;
+
+}
+
+.notes__aside {
+  width: 900px;
+  height: 625px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+
+.notes__form {
+  display: block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.notes__label {
+  margin-bottom: 20px;
+}
+
+.notes__input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.notes__input::placeholder {
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.notes__textarea {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  resize: none;
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.notes__btn-sub {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(2, 79, 151);
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .3s;
+
+}
+
+.notes__btn-sub:hover {
+  background-color: rgb(3, 95, 182);
+  color: #cec9c9;
+
+}
+
+.note__aside-item {
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #fff;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.note__aside-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.note__aside-bot {
+  display: block;
+}
+.note__aside-text{
+  max-width: 577px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.notes__aside-items{
+  display: block;
+  margin-top: 15px;
+}

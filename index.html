@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="notes__wrapper">
+        <h1 class="notes__title">My noteses, second project!</h1>
+        <div class="notes__header">
+        </div>
+        <div class="notes__inner">
+          <aside class="notes__aside">
+            <div class="notes__aside-items">
+            </div>
+          </aside>
+          <div class="notes__main">
+            <form class="notes__form">
+              <label class="notes__label">
+                <input
+                  class="notes__input "
+                  type="text"
+                  placeholder="Notes Title"
+                />
+              </label>
+              <label class="notes__label">
+                <input class="notes__input notes__date" type="date" />
+              </label>
+              <label class="notes__label">
+                <input
+                  class="notes__input notes__tags"
+                  type="text"
+                  placeholder="Notes Tags"
+                />
+              </label>
+              <textarea
+                class="notes__textarea"
+                placeholder="Notes Text"
+              ></textarea>
+              <button class="notes__btn-sub">Save</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
